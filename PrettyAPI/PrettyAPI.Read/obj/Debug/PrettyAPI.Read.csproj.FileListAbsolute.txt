@@ -1,0 +1,5 @@
+C:\Projects\PrettyAPI\PrettyAPI\PrettyAPI.Read\bin\Debug\PrettyAPI.Read.dll
+C:\Projects\PrettyAPI\PrettyAPI\PrettyAPI.Read\bin\Debug\PrettyAPI.Read.pdb
+C:\Projects\PrettyAPI\PrettyAPI\PrettyAPI.Read\obj\Debug\PrettyAPI.Read.csprojAssemblyReference.cache
+C:\Projects\PrettyAPI\PrettyAPI\PrettyAPI.Read\obj\Debug\PrettyAPI.Read.dll
+C:\Projects\PrettyAPI\PrettyAPI\PrettyAPI.Read\obj\Debug\PrettyAPI.Read.pdb

@@ -1,0 +1,5 @@
+C:\Projects\PrettyAPI\PrettyAPI\PrettyAPI.Write\bin\Debug\PrettyAPI.Write.dll
+C:\Projects\PrettyAPI\PrettyAPI\PrettyAPI.Write\bin\Debug\PrettyAPI.Write.pdb
+C:\Projects\PrettyAPI\PrettyAPI\PrettyAPI.Write\obj\Debug\PrettyAPI.Write.csprojAssemblyReference.cache
+C:\Projects\PrettyAPI\PrettyAPI\PrettyAPI.Write\obj\Debug\PrettyAPI.Write.dll
+C:\Projects\PrettyAPI\PrettyAPI\PrettyAPI.Write\obj\Debug\PrettyAPI.Write.pdb

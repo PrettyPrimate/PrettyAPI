@@ -82,3 +82,7 @@ C:\Projects\PrettyAPI\PrettyAPI\PrettyAPI\obj\Debug\PrettyAPI.csprojAssemblyRefe
 C:\Projects\PrettyAPI\PrettyAPI\PrettyAPI\obj\Debug\PrettyAPI.csproj.CopyComplete
 C:\Projects\PrettyAPI\PrettyAPI\PrettyAPI\obj\Debug\PrettyAPI.dll
 C:\Projects\PrettyAPI\PrettyAPI\PrettyAPI\obj\Debug\PrettyAPI.pdb
+C:\Projects\PrettyAPI\PrettyAPI\PrettyAPI\bin\PrettyAPI.Read.dll
+C:\Projects\PrettyAPI\PrettyAPI\PrettyAPI\bin\PrettyAPI.Write.dll
+C:\Projects\PrettyAPI\PrettyAPI\PrettyAPI\bin\PrettyAPI.Read.pdb
+C:\Projects\PrettyAPI\PrettyAPI\PrettyAPI\bin\PrettyAPI.Write.pdb

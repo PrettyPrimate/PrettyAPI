@@ -11,13 +11,13 @@ using PrettyAPI.Controllers;
 namespace PrettyAPI.Tests.Controllers
 {
     [TestClass]
-    public class ValuesControllerTest
+    public class ClubsControllerTest
     {
         [TestMethod]
         public void Get()
         {
             // Arrange
-            ValuesController controller = new ValuesController();
+            ClubsController controller = new ClubsController();
 
             // Act
             IEnumerable<string> result = controller.Get();
@@ -33,7 +33,7 @@ namespace PrettyAPI.Tests.Controllers
         public void GetById()
         {
             // Arrange
-            ValuesController controller = new ValuesController();
+            ClubsController controller = new ClubsController();
 
             // Act
             string result = controller.Get(5);
@@ -46,7 +46,7 @@ namespace PrettyAPI.Tests.Controllers
         public void Post()
         {
             // Arrange
-            ValuesController controller = new ValuesController();
+            ClubsController controller = new ClubsController();
 
             // Act
             controller.Post("value");
@@ -58,7 +58,7 @@ namespace PrettyAPI.Tests.Controllers
         public void Put()
         {
             // Arrange
-            ValuesController controller = new ValuesController();
+            ClubsController controller = new ClubsController();
 
             // Act
             controller.Put(5, "value");
@@ -70,7 +70,7 @@ namespace PrettyAPI.Tests.Controllers
         public void Delete()
         {
             // Arrange
-            ValuesController controller = new ValuesController();
+            ClubsController controller = new ClubsController();
 
             // Act
             controller.Delete(5);
