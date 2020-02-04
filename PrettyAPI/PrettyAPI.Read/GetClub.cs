@@ -12,12 +12,24 @@ namespace PrettyAPI.Read
     {
         public List<Club> GetAllClubs()
         {
-            return new List<Club>() { new Club(){ AddressLine1 = "28 Laurel", ClubId = 1, ClubName = "Home", Town = "Rainham", Postcode = "ME88HU"}};
+            return new List<Club>()
+            {
+                new Club() { AddressLine1 = "28 Laurel", ClubId = 1, ClubName = "Home", Town = "Rainham", Postcode = "ME88HU"},
+                new Club() { AddressLine1 = "12 Union Street", ClubId = 2, ClubName = "Work", Town = "Maidstone", Postcode = "ME12JJ"}
+            };
         }
 
         public Club GetClubDetails(int clubId)
         {
-            return new Club();
+            var clubs = new List<Club>()
+            {
+                new Club() { AddressLine1 = "28 Laurel", ClubId = 1, ClubName = "Home", Town = "Rainham", Postcode = "ME88HU"},
+                new Club() { AddressLine1 = "12 Union Street", ClubId = 2, ClubName = "Work", Town = "Maidstone", Postcode = "ME12JJ"}
+            };
+
+            var club = clubs.SingleOrDefault(x => x.ClubId == clubId);
+
+            return club;
         }
 
         public List<ClubMember> GetClubMembers(int clubId)

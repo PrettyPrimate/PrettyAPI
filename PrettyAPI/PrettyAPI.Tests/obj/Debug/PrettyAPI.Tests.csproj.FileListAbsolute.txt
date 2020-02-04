@@ -38,3 +38,5 @@ C:\Projects\PrettyAPI\PrettyAPI\PrettyAPI.Tests\obj\Debug\PrettyAPI.Tests.csproj
 C:\Projects\PrettyAPI\PrettyAPI\PrettyAPI.Tests\obj\Debug\PrettyAPI.Tests.csproj.CopyComplete
 C:\Projects\PrettyAPI\PrettyAPI\PrettyAPI.Tests\obj\Debug\PrettyAPI.Tests.dll
 C:\Projects\PrettyAPI\PrettyAPI\PrettyAPI.Tests\obj\Debug\PrettyAPI.Tests.pdb
+C:\Projects\PrettyAPI\PrettyAPI\PrettyAPI.Tests\bin\Debug\PrettyAPI.Read.dll
+C:\Projects\PrettyAPI\PrettyAPI\PrettyAPI.Tests\bin\Debug\PrettyAPI.Read.pdb

@@ -25,12 +25,19 @@ namespace PrettyAPI.Controllers
         {
             var c = new GetClub();
 
-
             var clubs = c.GetAllClubs();
             //var clubs = _getClub.GetAllClubs();
 
-
             return clubs;
+        }
+
+        public Club GetClub(int clubId)
+        {
+            var c = new GetClub();
+
+            var club = c.GetClubDetails(clubId);
+            
+            return club;
         }
 
         // POST api/values

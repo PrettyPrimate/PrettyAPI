@@ -13,69 +13,49 @@ namespace PrettyAPI.Tests.Controllers
     [TestClass]
     public class ClubsControllerTest
     {
-        [TestMethod]
-        public void Get()
-        {
-            // Arrange
-            ClubsController controller = new ClubsController();
+        //[TestMethod]
+        //public void Get()
+        //{
+        //    // Arrange
+        //    ClubsController controller = new ClubsController();
 
-            // Act
-            IEnumerable<string> result = controller.Get();
+        //    // Act
+        //    IEnumerable<string> result = controller.Get();
 
-            // Assert
-            Assert.IsNotNull(result);
-            Assert.AreEqual(2, result.Count());
-            Assert.AreEqual("value1", result.ElementAt(0));
-            Assert.AreEqual("value2", result.ElementAt(1));
-        }
+        //    // Assert
+        //    Assert.IsNotNull(result);
+        //    Assert.AreEqual(2, result.Count());
+        //    Assert.AreEqual("value1", result.ElementAt(0));
+        //    Assert.AreEqual("value2", result.ElementAt(1));
+        //}
 
-        [TestMethod]
-        public void GetById()
-        {
-            // Arrange
-            ClubsController controller = new ClubsController();
+        //[TestMethod]
+        //public void GetById()
+        //{
+        //    // Arrange
+        //    ClubsController controller = new ClubsController();
 
-            // Act
-            string result = controller.Get(5);
+        //    // Act
+        //    string result = controller.Get(5);
 
-            // Assert
-            Assert.AreEqual("value", result);
-        }
+        //    // Assert
+        //    Assert.AreEqual("value", result);
+        //}
 
-        [TestMethod]
-        public void Post()
-        {
-            // Arrange
-            ClubsController controller = new ClubsController();
+        //[TestMethod]
+        //public void Post()
+        //{
+        //    // Arrange
+        //    ClubsController controller = new ClubsController();
 
-            // Act
-            controller.Post("value");
+        //    // Act
+        //    controller.Post("value");
 
-            // Assert
-        }
+        //    // Assert
+        //}
 
-        [TestMethod]
-        public void Put()
-        {
-            // Arrange
-            ClubsController controller = new ClubsController();
+   
 
-            // Act
-            controller.Put(5, "value");
-
-            // Assert
-        }
-
-        [TestMethod]
-        public void Delete()
-        {
-            // Arrange
-            ClubsController controller = new ClubsController();
-
-            // Act
-            controller.Delete(5);
-
-            // Assert
-        }
+       
     }
 }
